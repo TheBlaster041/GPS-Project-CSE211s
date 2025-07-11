@@ -30,19 +30,33 @@ The goal is to build an embedded system using the TM4C123G (Tiva C) LaunchPad an
 ## 📦 Project Structure
 GPS-Project-CSE211s-main/
 │
+
 ├── headers/ # Header files for HAL, drivers, services
+
 │ ├── CAL/ # Component Abstraction Layer (LCD, GPS, LED, MAP)
+
 │ ├── MCAL/ # Microcontroller Abstraction Layer (UART, GPIO, SYSTIC)
+
 │
+
 ├── services/ # Support files and libraries
+
 │ ├── Bit Math Lib/ # Bit manipulation macros
+
 │ ├── Startup Code/ # Assembly startup file
+
 │ └── TIVA C Lib/ # TM4C register definitions
+
 │
+
 ├── src/ # Source files
+
 │ ├── APP/ # Application logic (main.c)
+
 │ ├── CAL/ # Component source files
+
 │ └── MCAL/ # Peripheral drivers
+
 
 
 
